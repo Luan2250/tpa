@@ -185,3 +185,17 @@ O bônus pode compensar requisitos não feitos, mas a nota máxima continua send
 1. Confira se o projeto roda com `php artisan migrate:fresh --seed` e `php artisan serve`.
 2. Compacte a pasta do projeto inteira em um `.zip`.
 3. Envie o `.zip` na atividade do Google Classroom.
+
+
+criar a model e migration, depois preenche la(model e migration)
+php artisan make:model Produto -m
+
+composer dump-autoload
+php artisan optimize:clear
+
+Developer: Reload Window
+
+php artisan make:middleware VendedorMiddleware
+
+php artisan migrate:fresh --seed
+php artisan serve
